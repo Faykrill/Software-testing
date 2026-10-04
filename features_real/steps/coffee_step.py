@@ -38,4 +38,4 @@ def step_brewing_not_started(context):
 @then('система выводит ошибку "{message}"')
 def step_check_error(context, message):
     assert context.machine.last_message == message, \
-        f"Ожидалось '{message}', получено '{context.machine.last_message}'"
+        f"Ожидалось '{message}'!, получено '{context.machine.last_message}'"
