@@ -1,0 +1,16 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: behave-mocks
+        name: Run behave (Mocks)
+        entry: behave features_mock/
+        language: system
+        pass_filenames: false
+        always_run: true
+        
+    -   id: behave-real
+        name: Run behave (Real code)
+        entry: behave features_real/
+        language: system
+        pass_filenames: false
+        always_run: true
