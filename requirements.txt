@@ -1,0 +1,7 @@
+sqlalchemy
+factory-boy
+faker
+kafka-python
+pytest
+testcontainers
+psycopg2-binary
